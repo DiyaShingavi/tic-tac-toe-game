@@ -35,6 +35,7 @@ const showWinner=(winner) => {
 const resetGame=()=>{
     cross=true;
     boxEnable();
+    
     msgContainer.classList.add("hide");
 }
 
